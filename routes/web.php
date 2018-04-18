@@ -11,8 +11,15 @@
 |
 */
 
+use App\Events\OrderStatusChanged;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/fire', function () {
+    event(new OrderStatusChanged);
+    return 'Fired';
 });
 
 Auth::routes();
@@ -33,3 +40,7 @@ Route::prefix('admin')->group(function () {
 });
 
 Route::redirect('/admin', '/admin/orders');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
