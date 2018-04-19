@@ -54,3 +54,8 @@ window.Echo = new Echo({
     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
     encrypted: true
 });
+
+require('@fortawesome/fontawesome');
+require('@fortawesome/fontawesome-free-regular');
+require('@fortawesome/fontawesome-free-solid');
+require('@fortawesome/fontawesome-free-brands');

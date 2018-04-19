@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+/*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10388,12 +10388,11 @@ a.text-dark:focus {
   }
 }
 
-.notification-count {
-  line-height: 12px;
-  padding: 2px 5px;
-  position: absolute;
-  right: 19px;
-  top: 6px;
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
 }
 
 .dropdown-menu-notifications {
@@ -10423,8 +10422,11 @@ a.text-dark:focus {
   color: #333 !important;
 }
 
-.navbar-brand {
-  margin-right: 30px;
+.hero-image {
+  margin: auto;
+  margin-top: 150px;
+  max-width: 40%;
+  width: 250px;
 }
 
 .order-details {
@@ -10436,5 +10438,13 @@ a.text-dark:focus {
   width: 100%;
   background: white;
   border: 1px solid #E5E6E7;
+}
+
+.notification-count {
+  line-height: 12px;
+  padding: 2px 5px;
+  position: absolute;
+  left: -3px;
+  top: 6px;
 }
 
