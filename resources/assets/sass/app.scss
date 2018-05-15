@@ -1,6 +1,11 @@
 // Variables
 @import "variables";
 // Bootstrap
+
+$theme-colors: (
+        "primary": #00a86e,
+);
+
 @import '~bootstrap/scss/bootstrap';
 
 .form-signin {
@@ -38,9 +43,7 @@
 }
 
 .hero-image {
-  margin: auto;
-
-  margin-top: 150px;
+  margin: 150px auto auto;
   max-width: 40%;
   width: 250px;
 }
